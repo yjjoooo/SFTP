@@ -117,7 +117,7 @@ def create_sftp_connection(transport):
         log_err('############ Create SFTP Connection Error')
         log_err(traceback.format_exc())
 
-# file putter
+# file putter input path
 def sftp_put(sftp, before_path, after_path):
     try:
         log('#### SFTP Put \"{}\" to \"{}\"'.format(before_path, after_path))
